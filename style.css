@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header {
+    background: transparent;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+header ul{
+    justify-content: space-around;
+    flex: 1.5;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    flex: 1;
+}
+
+.logo p {
+    margin-left: 15px;
+}
+
+.sub {
+    flex: 1;
+    text-align: center;
+}
+
+.sub-btn, .explore-btn{
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 500px;
+}
+
+svg {
+    margin: 0 10px;
+}
+
+.section-1 {
+    background: #0C24C5;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.section-1-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 2;
+    height: 35%;
+
+}
+
+.section-1-content h1{
+    line-height: 1;
+}
+
+.tagline {
+    width: 36%;
+}
+
+.explore-btn {
+    background: white;
+    color: #0C24C5;
+}
+
+.explore-btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.sub-btn:hover {
+    background: white;
+    color: #0C24C5;
+}
+
+.social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    bottom: 20px;
+}
+
+.social > * {
+    margin-bottom: 10px;
+}
+
+.sideways {
+    transform: rotate(-90deg);
+    position: fixed;
+    left: 20px;
+    bottom: 100px;
+}
